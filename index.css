@@ -23,3 +23,8 @@ body{
 .logo-title{
     color: #bbac86;
 }
+
+.main-page{
+    display: grid;
+    /*grid-template-areas: ;*/
+}
