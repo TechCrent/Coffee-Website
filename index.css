@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    padding:0;
+}
+.coffee-master{
+    display: flex;  
+    margin:0;
+    padding:0;
+    align-items: center;
+    justify-content: center;
+    background-color: #412316;
+}
+
+.logo{
+    width: 30px;
+    height: 30px;
+}
+
+.logo-title{
+    color: #bbac86;
+}
