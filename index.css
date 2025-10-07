@@ -50,27 +50,12 @@ body{
     font-size: 16px;
 }
 
-.option{
-    color:#885a2d;
-    padding-top: 2px;
-}
 
-.line{
-    border-bottom:2px solid #DDB892;
-    padding-bottom: 10px;
-}
 
-.price-1{
-    text-align: right;
-}
 
-.bold{
-    font-weight: bold;
-}
 
-table{
-    width: 100%
-}
+
+
 
 .name{
     grid-area:name;
@@ -149,4 +134,15 @@ table{
     margin: 10px;
     background-color: #deb993;
     border-radius: 20px;
+}
+table{
+    width: 100%;
+}
+
+.price-1{
+    text-align: right;
+}
+
+.bold{
+    font-weight: bold;
 }
