@@ -37,8 +37,6 @@ body{
 .items{
     grid-area:items;
     background-color: #eee1d5;
-    border-radius: 5px;
-    box-shadow: 0 1px 3px rgb(0 0 0 / 0.2);
     padding: 10px;
     margin: 10px;
 }
@@ -52,18 +50,25 @@ body{
 
 
 
+<<<<<<< HEAD
+=======
+.price-1{
+    padding-left: 100px;
+}
+>>>>>>> parent of 62adc3c (Redoing Items.)
 
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> parent of 62adc3c (Redoing Items.)
 
 .name{
     grid-area:name;
     background-color: #eee1d5;
-    border-radius: 5px;
-    box-shadow: 0 1px 3px rgb(0 0 0 / 0.2);
     margin: 10px;
-    padding: 10px 20px;
+    padding: 20px;
 }
 
 .name-title{
@@ -72,14 +77,15 @@ body{
     font-size: 16px;
 }
 
+.name-for-order{
+
+}
 
 .payment{
     grid-area:payment;
     background-color: #eee1d5;
-    border-radius: 5px;
-    box-shadow: 0 1px 3px rgb(0 0 0 / 0.2);
     margin: 10px;
-    padding: 10px 20px;
+    padding: 10px;
 }
 
 .payment-title{
@@ -88,43 +94,18 @@ body{
     font-size: 16px;
 }
 
-
-.input-group{
-    position:relative;
-    display: block;
-}
-
-.input{
-    padding: 5px;
-    margin: 8px;
-    border: 2px solid;
-    border-color:#885a2d;
-    border-radius: 15px;
-    background-color: #eee1d5;
+.card-number{
 
 }
 
-.input-label{
-    background-color: #eee1d5;
-    color:#885a2d;
-    font-size: 11px;
-    position: absolute;
-    left: 25px;
-    top: -3px;
-    padding: 0px 2px;
-}
+.ccv-number{
 
-.name-for-order, .card-number{
-    width: 100%;
-    max-width: 400px;
 }
-
 
 .total{
     display: flex;
     justify-content: center;
     text-align: center;
-    padding: 40px;
 }
 
 .place-order{
@@ -133,6 +114,7 @@ body{
     padding: 5px;
     margin: 10px;
     background-color: #deb993;
+<<<<<<< HEAD
     border-radius: 20px;
 }
 table{
@@ -145,4 +127,6 @@ table{
 
 .bold{
     font-weight: bold;
+=======
+>>>>>>> parent of 62adc3c (Redoing Items.)
 }
