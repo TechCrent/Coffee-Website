@@ -41,6 +41,32 @@ body{
     margin: 10px;
 }
 
+.item-title{
+    padding:10px;
+    color:#885a2d;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.option{
+    color:#885a2d;
+    padding-top: 2px;
+}
+
+.line{
+    border-bottom:2px solid #DDB892;
+    padding-bottom: 10px;
+}
+
+.price-1{
+    padding-left: 100px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+
 .name{
     grid-area:name;
     background-color: #eee1d5;
@@ -48,11 +74,35 @@ body{
     padding: 20px;
 }
 
+.name-title{
+    color:#885a2d;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.name-for-order{
+
+}
+
 .payment{
     grid-area:payment;
     background-color: #eee1d5;
     margin: 10px;
     padding: 10px;
+}
+
+.payment-title{
+    color:#885a2d;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.card-number{
+
+}
+
+.ccv-number{
+
 }
 
 .total{
