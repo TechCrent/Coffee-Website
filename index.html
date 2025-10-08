@@ -15,13 +15,14 @@
     <div class="main-page">
         <section class="items">
             <h2 class="item-title">ITEMS</h2>
-            <table>
+            <table class="item-table">
                 <tr>
                     <td>1x</td>
                     <td class="bold">Cappuccino</td>
                     <td class="price-1 bold">$3.35</td>
                 </tr>
                 <tr>
+                    <td class="space"></td>
                     <td class="option line" colspan="3">Lite foam</td>
                 </tr>
                 
@@ -31,9 +32,11 @@
                     <td class="price-1 bold">$3.85</td>
                 </tr>
                 <tr>
+                    <td></td>
                     <td class="option" colspan="3">Lite milk</td>
                 </tr>
                 <tr>
+                    <td class="space"></td>
                     <td class="option line" colspan="3">Double espresso</td>
                 </tr>
 
@@ -43,6 +46,7 @@
                     <td class="price-1 bold">$2.45</td>
                 </tr>
                 <tr>
+                    <td></td>
                     <td class="option" colspan="3">Butter</td>
                 </tr>
             </table>
@@ -50,25 +54,27 @@
 
         <section class="name">
             <h2 class="name-title">NAME</h2>
-            <label for="name-for-order" class="input-lablel">Name for order</label>
-            <input type="text" class="name-for-order">
+            <div class="input-group">
+                <label for="name-for-order" class="input-label">Name for order</label>
+                <input type="text" class="input name-for-order">                
+            </div>
         </section>
 
         <section class="payment">
             <h2 class="payment-title">PAYMENT</h2>
-            <div>
-                <label for="card-number">Card number</label>
-                <input type="text" class="card-number">
+            <div class="input-group">
+                <label for="card-number" class="input-label">Card number</label>
+                <input type="text" class="input card-number">
             </div>
-            <div>
-                <label for="ccv-number">CCV Number</label>
-                <input type="text" class="ccv-number">                
+            <div class="input-group">
+                <label for="ccv-number" class="input-label">CCV Number</label>
+                <input type="text" class="input ccv-number">                
             </div>
         </section>
     </div>
 
     <section class="total">
-        <table>
+        <table class="total-table">
             <tr>
                 <td>Subtotal:</td>
                 <td>$9.65</td>
@@ -78,8 +84,8 @@
                 <td>$0.82</td>
             </tr>
             <tr>
-                <td>Total:</td>
-                <td>$10.47</td>
+                <td class="bold">Total:</td>
+                <td class="bold">$10.47</td>
             </tr>
         </table>
     </section>
